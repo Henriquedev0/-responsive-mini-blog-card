@@ -9,7 +9,7 @@
     --cinza-escuro:#6C727F;
 }
 body{
-    background-color: var(--cinza);
+    background-color: var(--branco-claro);
 }
     .container {
         width: 100%;
