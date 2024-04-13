@@ -1,0 +1,76 @@
+:root
+{
+    --azul: #883AE1;
+    --rosa: #E6D6FC;
+    --cinza:#E5EAF0;
+    --branco-claro:#FAFAF9;
+    --branco-puro:#FFFFFF;
+    --preto:#20293A;
+    --cinza-escuro:#6C727F;
+}
+body{
+    background-color: var(--cinza);
+}
+    .container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        border-radius: 14px;
+        width: 370px;
+        height: 390px;
+        margin-top: 162px;
+        padding: 16px;
+        background-color: var(--branco-puro);
+        word-wrap: break-word; /* Adicione esta linha */
+        position: relative;
+        box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    }
+    .button{
+        font-family: "Sora", sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        color: var(--azul);
+        background-color: var(--rosa);
+        padding: 6px;
+        border-radius: 30px;
+        width: 80px;
+        margin-top: 10px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+h1{
+    font-family: "Sora", sans-serif;
+    font-size: 18px;
+   color: var(--preto);
+}
+.mini-text{
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    color: var(--cinza-escuro);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.line{
+    border-bottom: 1px solid var(--cinza);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.name{
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    color: var(--cinza-escuro);
+    margin-top: 40px;
+    
+}
+img{
+    border-radius: 14px;
+    width: 336px;
+    height: 152px;
+}
